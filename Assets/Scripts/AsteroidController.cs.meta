@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0ec3a1e5e93d5a24fa18752887514bf9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Asteroid_1_1: {instanceID: 0}
+  - Asteroid_1_2: {instanceID: 0}
+  - Asteroid_1_3: {instanceID: 0}
+  - Asteroid_2_1: {instanceID: 0}
+  - Asteroid_2_2: {instanceID: 0}
+  - Asteroid_2_3: {instanceID: 0}
+  - rb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

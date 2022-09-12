@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7596864793937774057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7596864793937774058}
+  - component: {fileID: 7596864793937774059}
+  - component: {fileID: 7596864793937774056}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7596864793937774058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596864793937774057}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &7596864793937774059
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596864793937774057}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb4538c6720e1544c85a84f8bc902c94, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &7596864793937774056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596864793937774057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc130497ad8f40d4faee371bce9db18d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laser1: {fileID: 8300000, guid: f3bfaacfd79c01242a4a62e8addfd15e, type: 3}
+  laser2: {fileID: 8300000, guid: 168d1ae59cbca7d4a9296c8f7e241652, type: 3}
+  laser3: {fileID: 8300000, guid: b6a202644ac0f0845a56f666c0f8eb11, type: 3}
+  small_impact: {fileID: 8300000, guid: 8c41b6278b0b9c34bb34f978e585e50d, type: 3}
+  medium_impact: {fileID: 8300000, guid: 83ca019c50edf834daf2ae17ed85c597, type: 3}
+  big_impact: {fileID: 8300000, guid: 55f0572feda84d042b1709b363f9ae24, type: 3}
+  buttons: {fileID: 8300000, guid: 44e665f2290cfda4fbe71391c31dae5e, type: 3}
+  ship_upgraded: {fileID: 8300000, guid: 912ac413a66646043bd9567ab863f215, type: 3}
+  asteroid_break: {fileID: 8300000, guid: 1158a35fe1290704ba35eb9553efb103, type: 3}
+  asteroid_collision: {fileID: 8300000, guid: 5a32ae0e142bb8841a3cee97308e3618, type: 3}
+  damage_warning: {fileID: 8300000, guid: bac410c1151b6734fa7b0beef6055d97, type: 3}
+  critical_damage_warning: {fileID: 8300000, guid: bb6513982ab4e98428ef27a0b2a5bfd0,
+    type: 3}
+  ship_explosion: {fileID: 8300000, guid: ce12f6f3710b43741886eca1bd3111b9, type: 3}
+  menu: {fileID: 8300000, guid: 7cf373e7186edfd4f97feae072a44283, type: 3}
+  start_music: {fileID: 8300000, guid: f105eb0445425f245a71b3a93e409c27, type: 3}
+  level1_2: {fileID: 8300000, guid: d43de72943ca2724587ea4cf93ebf727, type: 3}
+  level3_4: {fileID: 8300000, guid: 96b22ff4e5e86fc40a382a5f08fe7ddd, type: 3}
+  level5_6: {fileID: 8300000, guid: cd709be00e1cbb344a3fafb4d8488fee, type: 3}
+  level7_8: {fileID: 8300000, guid: c81bcf4185a246e4db1bc80a4f0d413c, type: 3}
+  level9_10: {fileID: 8300000, guid: 1d8086da64ef7c847a509e91e618fea6, type: 3}
+  level11_inf: {fileID: 8300000, guid: 8425d50aae97c794aa788d40202ffbef, type: 3}
+  game_over: {fileID: 8300000, guid: c0dd3e0351d27ca47b7ca309e470f2d5, type: 3}
